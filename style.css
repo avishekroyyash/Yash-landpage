@@ -34,7 +34,7 @@ header{
   margin-bottom: 130px;
 }
 .nav-main{
-  border:2px solid red;
+  /* border:2px solid red; */
    max-width: 1440px;
   margin:0 auto;
 }
@@ -63,7 +63,7 @@ header{
 max-width: 872px;
 margin:0 auto;
 text-align: center;
-border:1px solid blue; 
+/* border:1px solid blue;  */
 }
 .banner-head h1{
 font-size:3rem;
@@ -311,5 +311,36 @@ margin-bottom:130px;
     /* margin-left: 150px; */
     margin-bottom: 40px;
     gap:30px;
+}
+.main-love{
+  flex-direction:column;
+  /* justify-content: center;
+  /* align-items: center; 
+  gap:146px;
+  margin-bottom:130px; */
+}
+.main-feature {
+    margin-bottom: 1px;
+}
+.love-pic img{
+    width: 60%;
+    
+}
+.btn1 {
+   
+    margin-top:30px;
+    margin-bottom:30px; 
+    margin-left:70px;
+}
+.fact-main {
+    margin-top: -176px;
+}
+.main-love {
+    gap: 80px;
+   
+}
+.parent-log {
+    margin-left: 150px;
+   
 }
 }
