@@ -106,6 +106,7 @@ gap: 24px;
 
 .main-head h2{ 
 font-size: 3rem;
+
 }
 .main-head p{
   color:#727272;
@@ -113,18 +114,72 @@ font-size: 3rem;
   line-height:26px;
   margin-bottom:32px;
 }
+.main-love{
+  display:flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap:146px;
+  margin-bottom:130px;
+}
+.love-parent{
+  /* max-height: 982px; */
+}
+.love-header h1{
+  max-width:420px;
+color:#131313;
+font-size:3rem;
+margin-bottom:10px;
+border-left:5px solid #FF900E;
+padding-left:15px;
+}
+.love-header p{
+color:#727272;
+max-width: 586px;
+margin-bottom:30px;
+}
+/* .love-card-parent{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  border:2px solid red; 
 
+ 
+} */
 
-
-
-
-
-
-
-
-
-
-
+.love-card{
+max-width: 586px;
+max-height: 171px;
+border:none;
+background-color:#FFFFFF;
+padding:30px;
+ box-shadow: 0px 4px 30px 0px #0000000f;
+ margin-bottom:20px;
+}
+.love-card h4{
+color:#131313;
+font-size:1.4rem;
+font-weight:600;
+margin-top:0px;
+margin-bottom:0px;
+}
+.love-card p{
+max-width:514px;
+line-height: 26px;
+color:#727272;
+}
+.love-pic{
+  width:708px;
+  height: 942px;
+}
+.btn1{
+  background-color:#FF900E;
+  max-width: 342px;
+  max-height: 200px;
+  border:none;
+  padding:46px 42px;
+  border-radius:10px;
+  margin-top:-100px;
+  margin-left:-100px;
+}
 
 .fact-main{
   max-width: 1440px;
@@ -204,7 +259,8 @@ margin-bottom:130px;
   max-width:166px;
   max-height: 50px;
   color:#FFFFFF;
-  border:1px solid red;
+  filter: grayscale(100%);
+  /* border:1px solid red; */
 }
 .f-last{
   background-color: #FFF4E7;
@@ -234,5 +290,26 @@ margin-bottom:130px;
 .main-pic{
   grid-template-columns: repeat(1,1fr) ;
 }
-
+.fact-main h2{
+  text-align:center;
+}
+.fact-main p {
+    max-width: 100%;
+    margin-bottom:30px;
+}
+.parent-fact {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+.parent-log {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 150px; */
+    margin-bottom: 40px;
+    gap:30px;
+}
 }
